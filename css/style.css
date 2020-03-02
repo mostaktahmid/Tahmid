@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,700,800&display=swap');
+
+/*font-family: 'Libre Franklin', ;*/
+
+h1{
+    font-family: 'Libre Franklin';
+    font-size: 40px;
+}
+p{
+    font-family: 'Libre Franklin';
+    font-size: 15px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*Header part start*/
+header{
+    height: 100px;
+    background: #000000;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 15%;
+}
+.logo img{
+    
+}
+nav{
+    float: left;
+    width: 50%;
+}
+nav ul{
+    display: inline-block;
+    justify-content: flex-end;
+}
+nav ul li{
+    float: left;
+    align-items: center;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: white;
+    margin-right: 15px;
+    display: flex;
+}
+.right-icon{
+    widows: 20%;
+    float: right;
+}
+.right-icon i{
+    widows: 5px;
+}
+
+
+/*bannerr part*/
+.banner{
+    margin-top: 50px;
+}
+.banner img{
+    width: 100%;
+}
+
+
+/*snowboard part start*/
+.snowboard{
+    height: 900px;
+    padding-top: 100px;
+    background: #ffffff;
+}
+.snowboard h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.snowboard p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.cross_icon i{
+    width: 7px;
+    color: black;
+}
+
+.snowboard_image{
+    margin-right: 50px;
+}
+
+
+/*mountain part start*/
+.mountain{
+    height: 1100px;
+    background-image: url(../images/bg-image.png);
+    background-position: center
+    background-size: cover;
+    background-repeat: round;
+    width: 100%;
+}
+.mountain-content{
+    padding-top: 350px;
+    margin-left: 250px;
+}
+.mountain-content h1{
+    color: #fff;
+    width: 40%;
+    margin-bottom: 70px;
+}
+.mountain-content p{
+    color: #fff;
+    width: 40%;
+    line-height: 1.5;
+}
